@@ -1,0 +1,10 @@
+~/lab2/dist-6.6.17/dist/new : 
+find . | cpio -o -H newc > ../rootfs.cpio
+rm ../rootfs.cpio.bz2 
+bzip2 -z ../rootfs.cpio
+
+
+sh ./qemu.sh
+cd modules/
+insmod mazemod.ko 
+chmod +x mazetest 
