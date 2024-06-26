@@ -12,8 +12,8 @@
 
 [Lab04](https://github.com/imbianyunren/Adv_UNIX_2024/tree/main/Lab4): Race & reentrant
 
-[Homework #2](https://github.com/imbianyunren/Adv_UNIX_2024/tree/main/hw2): Assembly Practice
+[Homework #2](https://github.com/imbianyunren/Adv_UNIX_2024/tree/main/HW2): Assembly Practice
 
-[Homework #3](https://github.com/imbianyunren/Adv_UNIX_2024/tree/main/hw3): Simple Instruction Level Debugger
+[Homework #3](https://github.com/imbianyunren/Adv_UNIX_2024/tree/main/HW3): Simple Instruction Level Debugger
 
 [Lab05](https://github.com/imbianyunren/Adv_UNIX_2024/tree/main/Lab5): Buffer Overflow & Shellcoding Challenges
